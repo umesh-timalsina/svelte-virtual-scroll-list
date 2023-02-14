@@ -267,7 +267,7 @@
     }
 </script>
 
-<div bind:this={root} on:scroll={onScroll} style="overflow-y: auto; height: inherit" class="{' '.join(containerClasses)}">
+<div bind:this={root} on:scroll={onScroll} style="overflow-y: auto; height: inherit" class="{containerClasses.join(' ')}">
     {#if $$slots.header}
         <Item on:resize={onItemResized} type="slot" uniqueKey="header">
             <slot name="header"/>
