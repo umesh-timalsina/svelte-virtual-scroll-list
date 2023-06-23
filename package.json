@@ -41,7 +41,7 @@
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
-    "svelte": "^3.0.0"
+    "svelte": "^4.0.0"
   },
   "svelte": "./src/index.js",
   "module": "./lib/index.mjs",
